@@ -1,0 +1,361 @@
+
+/* all main  CSS work Start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { 
+    font-family: 'digital';
+    src: url('./fonts/digital-7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+/* all main  CSS Wrok End */
+
+
+/*  digital watch CSS Work Start*/
+
+.digital-watch{
+	font-family: digital;
+}
+
+.time-text{
+	font-family: roboto;
+}
+
+.time-sec {
+	background: url(./image/image2.jpg) no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 500px;
+	background-color: #f8f8f6;
+	width: 500px;
+    position: relative;
+}
+
+.time-box .hour-min {
+	color: #fff;
+    
+}
+.hour-min samp {
+	position: absolute;
+	top: 37%;
+	left: 45%;
+	font-size: 55px;
+}
+.time-box .time-hour {
+	display: inline-block;
+	font-size: 78px;
+	position: absolute;
+	left: 31%;
+	top: 37%;
+}
+.time-box .time-min {
+	display: inline-block;
+	font-size: 78px;
+	position: absolute;
+	right: 36%;
+	top: 37%;
+}
+.time-box .time-sic {
+	position: absolute;
+	right: 31%;
+	top: 40%;
+	color: #fff;
+	font-size: 20px;
+}
+.time-box .time-date {
+	position: absolute;
+	left: 33%;
+	top: 33%;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+.ampm {
+	position: absolute;
+	right: 31%;
+	top: 48%;
+	color: #fff;
+	font-size: 13px;
+    font-family: roboto;
+
+}
+
+/*  digital watch CSS Work End */
+
+/*  Counter Loader CSS Work start */
+
+/* Counter border color work */
+#brred{
+	border: 10px double red;
+	border-radius: 8px;
+}
+#brorange{
+	border: 10px double orange;
+	border-radius: 8px;
+}
+#brb4f775{
+	border: #b4f775;
+	border-width: 10px;
+	border-style: double;
+	border-radius: 8px;
+}
+#br85df31{
+	border: #85df31;
+	border-width: 10px;
+	border-style: double;
+	border-radius: 8px;
+}
+#brred .battery_box{
+	border: 10px double red;
+	border-radius: 0 8px 8px 0;
+}
+#brorange .battery_box{
+	border: 10px double orange;
+	border-radius: 0 8px 8px 0;
+}
+#brb4f775 .battery_box{
+	border: #b4f775;
+	border-width: 10px;
+	border-style: double;
+	border-radius: 0 8px 8px 0;
+}
+#br85df31 .battery_box{
+	border: #85df31;
+	border-width: 10px;
+	border-style: double;
+	border-radius: 0 8px 8px 0;
+}
+#brred #count{
+	color: red;
+}
+#brorange #count{
+	color: orange;
+
+}
+#brb4f775 #count{
+	color: #000;
+}
+#br85df31 #count{
+	color: #000;
+}
+/* Counter border color work end */
+
+.counter-loader{
+	border: 5px solid #ddd;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.counter-loader button{
+	width: 100px;
+	font-size: 20px;
+	text-transform:uppercase ;
+}
+.battery-sec {
+	border: 10px double green;
+	border-radius: 8px;
+	position: relative;
+}
+.battery-sec .charge-sec{
+	background-color: green;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	font-family: digital;
+	font-weight: 900;
+}
+#count {
+	position: absolute;
+	top: 12%;
+	left: 46%;
+	color: white;
+}
+#charge{
+	width: 100%;
+}
+.battery_box {
+	width: 16px;
+	height: 32px;
+	position: absolute;
+	right: -27px;
+	border: 10px double green;
+	border-radius: 0 8px 8px 0;
+}
+
+
+/*  Counter Loader CSS Work  End */
+
+/*  ToDo list CSS Work  start */
+
+.to-do{
+	border: 5px solid #ddd;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.todo-titel {
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.alert-dismissible {
+	margin: 0;
+	padding-right: 0;
+}
+
+
+/*  ToDo list CSS Work  End */
+
+.student_section.form-label {
+	font-size: 15px;
+	font-family: roboto;
+}
+
+.stu_title {
+	font-size: 35px;
+}
+.stu_info {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.form-label{
+	margin: 0;
+}
+
+.stu_data_output h1 {
+	font-size: 20px;
+}
+.stu_data_output span {
+	width: 150px;
+	display: inline-block;
+}
+#result_comm {
+	font-family: roboto;
+	text-transform: uppercase;
+}
+.stu_data_output {
+	font-family: roboto;
+	text-transform: uppercase;
+}
+
+
+
+/* table css work */
+
+.result_output table {
+	border: 1px solid #ddd;
+}
+.result_output table td {
+	border: 1px solid rgb(200, 220, 251);
+}
+
+.result_output table tbody tr:nth-child(odd){
+    background: rgb(200, 220, 251);
+}
+
+.result_output table thead {
+	background: #007814;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 200 !important;
+	font-family: roboto;
+}
+
+.result_output table tbody {
+	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+/* #hidden #humanities {
+	display: none;
+} */
+
+#humanities {
+	display: none !important;
+}
+#hum_visible #humanities {
+	display: flex !important;
+}
+#science {
+	display: none !important;
+}
+#sci_visible #science {
+	display: flex !important;
+}
+#business {
+	display: none !important;
+}
+#bus_visible #business {
+	display: flex !important;
+}
+
+#scince_row{
+	display: none ;
+}
+#sci_visible #scince_row{
+	display: block !important;
+}
+
+#humaniti_row{
+	display: none ;
+}
+#hum_visible #humaniti_row{
+	display: block !important;
+}
+#business_row {
+	display: none !important;
+}
+#bus_visible #business_row {
+	display: flex !important;
+}
+
+.final_result table thead {
+	background: #0b0b0b;
+	font-size: 15px;
+	font-weight: 200 !important;
+	font-family: roboto;
+}
+
+.final_result {
+	text-align: center;
+}
+
+#result_good {
+	display: none;
+}
+#result_bad {
+	display: none;
+}
+
+#redalart #result_bad {
+	display: block;
+	font-family: roboto;
+	text-transform: uppercase;
+}
+#redalart #grade {
+	font-family: roboto;
+	color: red;
+}
+#redalart .final_result table tr {
+	background: red !important;
+	color: #fff;
+}
+#redalart #result_comm{
+	display: none;
+}
+#godalart #result_comm{
+	display: none;
+}
+#godalart #result_good{
+	display: block;
+}

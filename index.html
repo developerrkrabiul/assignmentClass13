@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="./slyle.css">
+
+    <title>Assignment Class 13</title>
+  </head>
+  <body>
+
+    <!-- Digital Watch Wrok Start -->
+
+    <div class="container digital-watch">
+        <div class="row">
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4 m-5  p-2">
+              <div class="time-sec p-3">
+                <h2 class="time-text text-center font-weight-bold text-uppercase bg-info text-white p-2 rounded shadow">Digital Watch</h2>
+                <div class="time-box">
+
+                  <div class="hour-min">
+                    <h3 class="time-hour">00</h3>
+                    <Samp>:</Samp>
+                    <h3 class="time-min">00</h3>  
+                  </div>
+
+                  <h3 class="time-sic">00</h3>
+                  <h3 class="time-date">00</h3>
+                  <h3 class="ampm">00</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+        <!-- Digital Watch Wrok End -->
+
+
+        <!-- Counter With Loader Wrok Start -->
+
+    <div class="container counter-loader text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="time-text text-center font-weight-bold text-uppercase bg-info text-white p-2 rounded shadow">Counter with Loader</h1>
+
+          <div class="counter-sec pt-2">
+            <div class="row">
+              <div class="col-md-4">
+                <button id="cou_start" class="btn btn-primary">Start</button>
+                <button id="cou_stop" class="btn btn-danger">stop</button>
+                <button id="cou_reset" class="btn btn-info">Charge</button>
+                <input id="cou_input" type="number" class="form-control mt-2">
+              </div>
+
+              <div class="col-md-6 py-2">
+                <div class="battery-sec">
+                  <div id="charge" class="charge-sec">
+                    <div class="battery_box"></div>
+                    <h2 id="count">100%</h2></div>
+                </div>
+              </div>
+
+              <div class="col-md-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Counter With Loader Wrok End -->
+
+     <!-- Basic TO-DO App Wrok Start -->
+
+    <div class="container to-do text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="todo-text text-center font-weight-bold text-uppercase bg-info text-white p-2 rounded shadow">Basic TO-DO App</h1>
+          <div class="todo-sec">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="todo-info-sec">
+                  <input id="todo_input" placeholder="Type your To Do here" type="text " class="form-control my-1">
+                  <button id="todo_add" class="btn btn-success form-control" >ADD</button>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="todo-titel bg-success p-2">Your To Do list</div>
+                <div id="todo_items">
+                  <ul id="todo_in" class="list-group text-left alert-dismissible">
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Basic TO-DO App Wrok End -->
+
+     <!-- Subject Marks app with notification color  Wrok start -->
+
+    <div class="container Subject-mark ">
+      <div class="row">
+        <div class="col-lg-12 ">
+          <h1 class="time-text text-center font-weight-bold text-uppercase bg-info text-white p-2 rounded shadow">Subject Marks app with notification color</h1>
+          <div class="subject-sec">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="student_section shadow p-4 rounded">
+                  <h1 class="stu_title alert-primary text-center font-weight-normal">RESULT CALCULTION</h1>
+                  <div class="stu_data my-2">
+                    <h1 class="stu_info text-center">student data</h1>
+                    <div class="data_input d-flex">
+                  
+                        <div class="input_left p-2">
+                          <div class="form-group">
+                          <label  class="form-label ">First Name</label>
+                          <input type="text" placeholder="Enter Your Name" class="form-control" id="name"> 
+                          <label  class="form-label">Your Roll</label>
+                          <input type="number" placeholder="Enter Your Roll" class="form-control" id="roll"> 
+                          <select class="form-select mt-2 text-center" id="pas_year" aria-label="Default select example">
+                            <option selected>-Passing Year-</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                          </select>
+                          </div>
+                        </div>
+
+                        <div class="input_right p-2">
+                          <div class="form-group">
+                          <label  class="form-label ">Last Name</label>
+                          <input type="text" placeholder="Enter Your name" class="form-control" id="last_name">
+                          <label  class="form-label">Your Reg Number</label>
+                          <input type="number" placeholder="Enter Reg Number" class="form-control" id="reg_number">
+                          <select class="form-select  mt-2 text-center" id="group" aria-label="Default select example">
+                            <option selected>-Your Group-</option>
+                            <option value="Science">Science</option>
+                            <option value="humanities">Humanities</option>
+                            <option value="business">Business</option>
+                          </select> 
+                        </div> 
+                      </div>
+                      </div>
+                    </div>
+                    <div class="sub_sce ">
+                      <div class="sub_title text-center">--Subjects Marks--</div>
+
+                      <div class="commone_sub d-flex">
+                        <div class="input_right p-2">
+                          <div class="form-group">
+                            <input type="text" placeholder="Bangla" class="form-control my-2" id="in_ban">
+                            <input type="text" placeholder="English" class="form-control my-2" id="in_eng">
+                            <input type="text" placeholder="Math" class="form-control my-2" id="in_math">
+                          </div> 
+                      </div>
+                        <div class="input_left p-2">
+                          <div class="form-group">
+                            <input type="text" placeholder="Social Sience" class="form-control my-2" id="in_ssci">
+                            <input type="text" placeholder="Religion" class="form-control my-2" id="in_reg">
+                          </div> 
+                      </div>
+                      </div>
+                      <div class="group_sec">
+                        <div class="sub_title text-center">--Group Subjects Marks--</div>
+                        <div id="science" class="group_sub d-flex">
+                          <div class="input_right p-2">
+                            <div class="form-group">
+                              <input type="text" placeholder="Physics" class="form-control my-2" id="in_phy">
+                              <input type="text" placeholder="Biology" class="form-control my-2" id="in_bio">
+                            </div> 
+                        </div>
+                          <div class="input_left p-2">
+                            <div class="form-group">
+                              <input type="text" placeholder="Chemistry" class="form-control my-2" id="in_chem">
+                              <input type="text" placeholder="Higher Math" class="form-control my-2" id="in_higmath">
+                            </div> 
+                        </div>
+                        </div>
+                        <div id="humanities" class="group_sub d-flex">
+                          <div class="input_right p-2">
+                            <div class="form-group">
+                              <input type="text" placeholder="Geography" class="form-control my-2" id="in_gen">
+                              <input type="text" placeholder="Civic & Citizenship" class="form-control my-2" id="in_civ">
+                            </div> 
+                        </div>
+                          <div class="input_left p-2">
+                            <div class="form-group">
+                              <input type="text" placeholder="Economics" class="form-control my-2" id="in_eco">
+                              <input type="text" placeholder="General Science" class="form-control my-2 in_gsic" >
+                            </div> 
+                        </div>
+                        </div>
+                        <div id="business" class="group_sub d-flex">
+                          <div class="input_right p-2">
+                            <div class="form-group">
+                              <input type="text" placeholder="Finance & Banking" class="form-control my-2" id="in_finbank">
+                              <input type="text" placeholder="Accounting" class="form-control my-2" id="in_acc">
+                            </div> 
+                        </div>
+                          <div class="input_left p-2">
+                            <div class="form-group">
+                              <input type="text" placeholder="Business Ent" class="form-control my-2" id="in_bis">
+                              <input type="text" placeholder="General Science" class="form-control my-2 in_gsicb">
+                            </div> 
+                        </div>
+                        </div>  
+                        <button id="result_submit" class="btn btn-success form-control">Submit</button>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+                </div>
+              <div class="col-md-7">
+                <div class="result_output shadow p-4 rounded">
+                  <h1 id="result_comm" class="text-center alert-primary p-2">Result Commient</h1>
+                  <h1 id="result_good" class="text-center alert-success p-2">Congratulations</h1>
+                  <h1 id="result_bad" class="text-center alert-danger p-2">try next time</h1>
+                  <div class="stu_data_output">
+                    <h1 class="out_name"><span>Name</span> : <samp id="out_name">........</samp></h1>
+                    <h1 class="out_roll"><span>Roll</span> : <samp id="out_roll">........</samp></h1>
+                    <h1 class="out_reg"><span>Registion No</span> : <samp id="out_reg">........</samp></h1>
+                    <h1 class="out_group"><span>Group</span> : <samp id="out_group">........</samp></h1>
+                    <h1 class="out_year"><span>Passign Year</span> : <samp id="out_year">........</samp></h1>
+                    <h1 class="grade"><span>Grade</span> : <samp id="grade">........</samp></h1>
+                  </div>
+                  <div class="result_output">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Code</th>
+                          <th scope="col">Subject</th>
+                          <th scope="col">Mark</th>
+                          <th scope="col">Point</th>
+                          <th scope="col">Grade</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr id="ban">
+                          <td>101</td>
+                          <td>Bangla</td>
+                          <td>85</td>
+                          <td>5</td>
+                          <td>A+</td>
+                        </tr>
+                        <tr id="eng">
+                          <td>102</td>
+                          <td>English</td>
+                          <td>85</td>
+                          <td>5</td>
+                          <td>A+</td>
+                        </tr>
+                        <tr id="math">
+                          <td>103</td>
+                          <td>Math</td>
+                          <td>85</td>
+                          <td>5</td>
+                          <td>A+</td>
+                        </tr>
+                        <tr id="s_sic">
+                          <td>104</td>
+                          <td>Social Sience</td>
+                          <td>85</td>
+                          <td>5</td>
+                          <td>A+</td>
+                        </tr>
+                        <tr id="reli">
+                          <td>105</td>
+                          <td>Religion</td>
+                          <td>85</td>
+                          <td>5</td>
+                          <td>A+</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <div class="group_output">
+                      <div class="sub_title text-center">--Group Subjects Marks--</div>
+
+                          <div id="scince_row">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Code</th>
+                                  <th scope="col">Subject</th>
+                                  <th scope="col">Mark</th>
+                                  <th scope="col">Point</th>
+                                  <th scope="col">Grade</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr id="physi">
+                                  <td>136</td>
+                                  <td>Physics</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr>
+                                <tr id="biol">
+                                  <td>138</td>
+                                  <td>Biology</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr>
+                                <tr id="chemi">
+                                  <td>137</td>
+                                  <td>Chemistry</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr>
+                                <tr id="hig_math">
+                                  <td>126</td>
+                                  <td>Higher Math</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr>
+                            </tbody>
+                            </table>
+
+                          </div>
+                          <div id="humaniti_row">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Code</th>
+                                  <th scope="col">Subject</th>
+                                  <th scope="col">Mark</th>
+                                  <th scope="col">Point</th>
+                                  <th scope="col">Grade</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+
+                                <tr id="geog">
+                                  <td>110</td>
+                                  <td>Geography</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr>
+                                <tr id="civic">
+                                  <td>140</td>
+                                  <td>Civic & Citizenship</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr>
+                                <tr id="eco">
+                                  <td>141</td>
+                                  <td>Economics</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr>
+                                <tr class="gen_sic">
+                                  <td>127</td>
+                                  <td>General Science</td>
+                                  <td>85</td>
+                                  <td>5</td>
+                                  <td>A+</td>
+                                </tr> 
+                            </tbody>
+                            </table>
+                          </div>
+                          <div id="business_row">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Code</th>
+                                  <th scope="col">Subject</th>
+                                  <th scope="col">Mark</th>
+                                  <th scope="col">Point</th>
+                                  <th scope="col">Grade</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+
+                            <tr id="fin_bank">
+                              <td>152</td>
+                              <td>Finance & Banking</td>
+                              <td>85</td>
+                              <td>5</td>
+                              <td>A+</td>
+                            </tr>
+                            <tr id="acco">
+                              <td>146</td>
+                              <td>Accounting</td>
+                              <td>85</td>
+                              <td>5</td>
+                              <td>A+</td>
+                            </tr>
+                            <tr id="bus_ent">
+                              <td>143</td>
+                              <td>Business Ent</td>
+                              <td>85</td>
+                              <td>5</td>
+                              <td>A+</td>
+                            </tr>
+                            <tr class="gen_sicB">
+                              <td>127</td>
+                              <td>General Science</td>
+                              <td>85</td>
+                              <td>5</td>
+                              <td>A+</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                          </div>
+                    </div>
+
+                    <div class="final_result">
+                      <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col"></th>
+                          <th scope="col">Total Mark</th>
+                          <th scope="col">Total Point</th>
+                          <th scope="col">Total Grade</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">  </th>
+                          <td id="total_mark">800</td>
+                          <td id="total_point">5</td>
+                          <td id="total_grade">A+</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    </div>
+                    
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+     <!-- Subject Marks app with notification color  Wrok End -->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    
+    <!-- js links -->
+    <script src="Js/time-function.js"></script>
+    <script src="Js/counter_loader.js"></script>
+    <script src="Js/todo.js"></script>
+    <script src="Js/result_app.js"></script>
+    <script src="Js/result_function.js"></script>
+
+
+
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
+
